@@ -11,4 +11,7 @@ In total, you need to download Nvidia Driver + Pycharm + Anaconda + tensorflow-g
 
 4. Download and install CUDA (https://developer.nvidia.com/accelerated-computing-toolkit).
 
-5. Download cuDNN (https://developer.nvidia.com/rdp/form/cudnn-download-survey). Unzip the files you downloaded and copy them to the corresponding CUDA file folders.
+5. Download cuDNN (https://developer.nvidia.com/rdp/form/cudnn-download-survey). 
+Unzip the files you have downloaded and then copy them to the corresponding CUDA file folders. 
+You may have three different file folders in cuDNN which are "bin", "include" and "lib". 
+Copy the files to "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin", "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" and "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64" respectively.
